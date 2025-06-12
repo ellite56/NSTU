@@ -1,0 +1,18 @@
+﻿  Kercah.cpp
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(28,27): warning C4267: return: преобразование из "size_t" в "long"; возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(155,47): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(158,58): warning C4244: =: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(164,42): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(231,41): warning C4244: =: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(273,38): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(301,50): warning C4244: =: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(311,38): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(318,31): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(320,34): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(348,50): warning C4244: =: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(355,34): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(395,34): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(420,50): warning C4244: =: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(428,38): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+C:\Users\dimak\source\repos\Kyrcah\Kyrcah\Kercah.cpp(438,34): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+  Kyrcah.vcxproj -> C:\Users\dimak\source\repos\Kyrcah\x64\Debug\Kyrcah.exe
