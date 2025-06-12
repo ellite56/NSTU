@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<StackPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rgz.NewsEditController" prefWidth="400" prefHeight="400" style="-fx-background-color: white;">
+    <VBox alignment="CENTER" spacing="10" maxWidth="300">
+        <Text text="Редактировать новость" style="-fx-font-size: 18px"/>
+        <TextField fx:id="titleField" promptText="Заголовок" prefWidth="300"/>
+        <TextArea fx:id="contentArea" promptText="Содержимое новости" prefWidth="300" prefHeight="200"/>
+        <Button fx:id="saveButton" text="Сохранить" prefWidth="200" onAction="#handleSaveNews"/>
+        <Button fx:id="cancelButton" text="Отмена" prefWidth="200" onAction="#handleCancel"/>
+    </VBox>
+</StackPane>

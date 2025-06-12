@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rgz.NewsAdmin" prefHeight="600.0" prefWidth="900.0">
+
+    <!-- Верхняя панель с кнопками -->
+    <VBox spacing="10" prefWidth="900" alignment="TOP_CENTER" AnchorPane.topAnchor="10.0">
+        <HBox spacing="10" alignment="CENTER">
+            <Button fx:id="addNewsButton" text="Добавить новость" />
+            <Button fx:id="editNewsButton" text="Редактировать новость" />
+            <Button fx:id="deleteNewsButton" text="Удалить новость" />
+        </HBox>
+    </VBox>
+
+    <!-- Основная часть: слева список заголовков, справа текст новости -->
+    <HBox spacing="10" AnchorPane.topAnchor="50.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.bottomAnchor="10.0">
+        <!-- Список заголовков новостей -->
+        <ListView fx:id="newsListView" prefWidth="450.0" />
+
+        <TextFlow fx:id="newsContentArea" layoutX="220.0" layoutY="50.0" prefHeight="340.0" prefWidth="450.0" />
+    </HBox>
+</AnchorPane>
