@@ -1,0 +1,3 @@
+C:/Users/dimak/CLionProjects/RGR_OC/cmake-build-debug/CMakeFiles/RGR_OC.dir
+C:/Users/dimak/CLionProjects/RGR_OC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dimak/CLionProjects/RGR_OC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
